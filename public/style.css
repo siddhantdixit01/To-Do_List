@@ -29,7 +29,7 @@ footer{
     position: absolute;
     text-align: center;
     bottom: 0;
-    width: 100%;
+    width: 96%;
     height: 2.5rem;
 }
 footer p{
@@ -70,13 +70,26 @@ footer p{
   
 form.create-note {
     position: relative;
-    width: 480px;
+    width: 30%;
     margin: 30px auto 20px auto;
     background: #fff;
     padding: 15px;
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
+
+@media (max-width : 1024px)  {
+    form.create-note {
+        position: relative;
+        width: 80%;
+        margin: 30px auto 20px auto;
+        background: #fff;
+        padding: 15px;
+        border-radius: 7px;
+        box-shadow: 0 1px 5px rgb(138, 137, 137);
+    }
+}
+
 form.create-note input,
 form.create-note textarea {
     width: 100%;
